@@ -18,7 +18,7 @@
     <br>
     <br>
     <!--Calculator Starter-->
-        <table class="text-center d-flex justify-content">
+        <table class="text-center d-flex justify-content-center">
          <tr>
             <td colspan="4">
                 <input type="text" id="result">
@@ -26,67 +26,67 @@
          </tr>
          <tr>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> C </button>
+                <button type="button" class="btn btn-primary" onclick="clearBox()"> C </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> ^ </button>
+                <button type="button" class="btn btn-primary" onclick=" powerTo()"> []^2 </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> % </button>
+                <button type="button" class="btn btn-primary" onclick="percentageOfNum('%')"> % </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> / </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('/')"> / </button>
             </td> 
          </tr> 
          <tr>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> 7 </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('7')"> 7 </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> 8 </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('8')"> 8 </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> 9 </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('9')"> 9 </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> * </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('*')"> * </button>
             </td>
         </tr>
         <tr>
             <td>
-                <button type="button" class="btn btn-primary" onclick="">4 </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('4')">4 </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> 5 </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('5')"> 5 </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> 6 </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('6')"> 6 </button>
             </td>
             <td>
-                <button type="button" class="btn btn-primary" onclick=""> - </button>
+                <button type="button" class="btn btn-primary" onclick="buttonClicker('-')"> - </button>
             </td>
         </tr>  
         <tr>
             <td>
-             <button type="button" class="btn btn-primary" onclick=""> 1 </button>
+             <button type="button" class="btn btn-primary" onclick="buttonClicker('1')"> 1 </button>
             </td>
             <td>
-             <button type="button" class="btn btn-primary" onclick=""> 2 </button>
+             <button type="button" class="btn btn-primary" onclick="buttonClicker('2')"> 2 </button>
             </td>
             <td>
-             <button type="button" class="btn btn-primary" onclick=""> 3 </button>
+             <button type="button" class="btn btn-primary" onclick="buttonClicker('3')"> 3 </button>
             </td>
             <td>
-             <button type="button" class="btn btn-primary" onclick=""> + </button>
+             <button type="button" class="btn btn-primary" onclick="buttonClicker('+')"> + </button>
             </td>
         </tr>
         <tr>
-            <td colspan="2" id="space">
-                <button type="button" class="btn btn-primary" onclick=""> 0 </button>
+            <td colspan="2" >
+                <button type="button" class="btn btn-primary makeLarger" onclick="buttonClicker('0')"> 0 </button>
             </td>
-            <td colspan="2" id="space">
-                <button type="button" class="btn btn-primary" onclick=""> = </button>
-               </td>
+            <td colspan="2" >
+                <button type="button" class="btn btn-primary makeLarger" onclick="equateTheResult()"> = </button>
+            </td>
         </tr>
         </table>
     <!--End of Calculator-->
